@@ -5,9 +5,9 @@ import { PORT } from './config/config';
 const app = express();
 
 //Settings
-app.set('port', PORT)
+app.set('port', PORT);
 //Middlewares
-
+app.use(express.json());
 //Routes
 
 //Static files
